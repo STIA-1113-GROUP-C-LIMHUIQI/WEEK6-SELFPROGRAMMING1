@@ -1,0 +1,11 @@
+Please enter your subject 1: Math
+Please enter your mark for subject 1: 80
+Please enter your subject 2: Science
+Please enter your mark for subject 2: 45
+
+Subject Math: Passed
+Subject Science: Failed
+
+Subject Math's mark is higher than subject Science
+Average mark is 62.0
+Grade B
