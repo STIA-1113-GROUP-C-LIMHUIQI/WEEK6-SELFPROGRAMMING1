@@ -1,0 +1,80 @@
+package classExercise;
+
+import java.util.Scanner;
+
+public class Mark {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int mark1, mark2;
+		String sub1, sub2;
+		int fullMark = 100;
+		double avg;
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.print("Please enter your subject 1: ");
+		sub1 = scan.next();
+		
+		System.out.printf("Please enter your mark for subject 1: ");
+		mark1 = scan.nextInt();
+		
+		System.out.print("Please enter your subject 2: ");
+		sub2 = scan.next();
+		
+		System.out.printf("Please enter your mark for subject 2: ");
+		mark2 = scan.nextInt();
+		
+		System.out.println();
+		
+		if (mark1 >= 50)
+			System.out.printf("Subject %s: Passed\n", sub1);
+		
+		else
+			System.out.printf("Subject %s: Failed\n", sub1);
+
+		if (mark2 >= 50)
+			System.out.printf("Subject %s: Passed\n\n", sub2);
+		
+		else
+			System.out.printf("Subject %s: Failed\n\n", sub2);
+		
+		
+		if (mark1 > mark2)
+		{
+			System.out.printf("Subject %s's mark is higher than subject %s\n", sub1, sub2);
+		}
+
+		else
+		{
+			System.out.printf("Subject %s's mark is higher than subject %s\n", sub2, sub1);
+		}
+		
+		avg= ((mark1+mark2)/2);
+		System.out.println("Average mark is " +avg);
+		
+		if (avg >= 80)
+		{
+			System.out.println("Grade A");
+		}
+		
+		else if (avg >= 60)
+		{
+			System.out.println("Grade B");
+		}
+		
+		else if (avg >= 50)
+		{
+			System.out.println("Grade C");
+		}
+		
+		else
+		{
+			System.out.println("Failed");
+		}
+			
+		
+			
+	}
+
+}
