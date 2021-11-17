@@ -1,0 +1,40 @@
+package classExercise;
+
+import java.util.Scanner;
+
+public class Count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double y;
+		double x;
+		double z;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("Enter x: ");
+		x = scan.nextDouble();
+		System.out.print("Enter y: ");
+		y = scan.nextDouble();
+		System.out.print("Enter z: ");
+		z = scan.nextDouble();
+		
+		if (y == x)
+		System.out.println("Result: y equal to x");
+		
+		if (z != x)
+		System.out.println("Result: z not equal x");
+		
+		if (x > y)
+		System.out.println("Result: x greater than y");
+		
+		if (y < x)
+		{
+			
+		System.out.println("Value x: " + x + "\nValue y: " +y );
+		System.out.println("Result: y less than x");
+
+		}
+	}
+
+}
