@@ -1,0 +1,8 @@
+Enter x: 5
+Enter y: 2
+Enter z: 12
+Result: z not equal x
+Result: x greater than y
+Value x: 5.0
+Value y: 2.0
+Result: y less than x
