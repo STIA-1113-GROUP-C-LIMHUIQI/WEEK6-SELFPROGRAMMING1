@@ -1,0 +1,23 @@
+package classExercise;
+
+public class IfElseStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 20;
+		int y = 3;
+		
+		if (x > y)
+		{
+			System.out.println("Is true x more than y");
+		}
+		
+		else
+		{
+			System.out.println("Is false x more than y");
+		}
+
+	}
+
+}
